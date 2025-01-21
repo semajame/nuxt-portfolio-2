@@ -3,5 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    min-height: 100vh;
+    background-color: black;
+  }
 
+  .flipping-image {
+    transition: transform 0.6s ease; /* Smooth flip animation */
+  }
+
+  .flip-container:hover .flipping-image {
+    transform: rotateY(180deg); /* Rotate the image on hover */
+  }
 }
