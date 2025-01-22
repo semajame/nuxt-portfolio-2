@@ -1,6 +1,5 @@
 <template>
   <main>
-    <Header />
     <section class="py-5">
       <p class="text-white text-md">
         I'm a creative frontend developer based in Cebu. I specialize in UI
@@ -12,6 +11,7 @@
 
     <Experience />
     <Projects />
+    <Connect />
   </main>
 </template>
 

@@ -85,7 +85,7 @@ const events = [
       </TabsTrigger>
     </TabsList>
     <TabsContent value="account">
-      <div class="relative border border-zinc-900 rounded-md px-5">
+      <div class="relative border border-zinc-900 rounded-md px-5 dark">
         <div class="vertical-line" />
         <div class="flex justify-between items-center mt-5">
           <h3 class="font-bold flex items-center gap-3 text-2xl text-white">
@@ -137,7 +137,7 @@ const events = [
           >
             <div class="flex-none">
               <div
-                class="w-2.5 h-2.5 bg-black group-hover:bg-white transition duration-300 border border-gray rounded-full"
+                class="w-2.5 h-2.5 bg-black group-hover:bg-white transition duration-300 border border-white rounded-full"
               ></div>
             </div>
             <div class="w-full">
@@ -156,7 +156,7 @@ const events = [
       </div>
     </TabsContent>
     <TabsContent value="Experience">
-      <div class="relative border border-zinc-900 rounded-md px-5">
+      <div class="relative border border-zinc-900 rounded-md px-5 dark">
         <div class="about-vertical-line" />
         <div class="flex justify-between items-center">
           <h3
@@ -188,7 +188,7 @@ const events = [
           >
             <div class="flex-none">
               <div
-                class="w-2.5 h-2.5 bg-black group-hover:bg-white transition duration-300 border border-gray rounded-full"
+                class="w-2.5 h-2.5 bg-black group-hover:bg-white transition duration-300 border border-white rounded-full"
               ></div>
             </div>
             <div class="w-full">

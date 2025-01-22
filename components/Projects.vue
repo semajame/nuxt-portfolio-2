@@ -1,6 +1,6 @@
 <!-- pages/index.vue -->
 <template>
-  <div class="py-5">
+  <div class="py-5 mt-10">
     <div class="w-full">
       <div class="flex justify-between items-center">
         <span

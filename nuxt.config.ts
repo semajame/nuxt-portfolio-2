@@ -26,7 +26,7 @@ export default defineNuxtConfig({
 
   icon: {
     serverBundle: {
-      collections: ['uil', 'mdi'], // <!--- this
+      collections: ['uil', 'mdi', 'mynaui'], // <!--- this
     },
   },
 

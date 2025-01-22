@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="flex justify-start items-center gap-5">
-      <div class="flip-container">
+      <div class="">
         <div
           class="relative h-[5rem] w-[5rem] overflow-hidden rounded-full border border-gray-800 backdrop-blur-3xl"
         >
