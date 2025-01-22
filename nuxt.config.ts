@@ -8,13 +8,33 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxt/icon',
     '@nuxt/image',
+    'shadcn-nuxt',
+    '@nuxtjs/color-mode',
   ],
+
+  shadcn: {
+    /**
+     * Prefix for all the imported component
+     */
+    prefix: '',
+    /**
+     * Directory that the component lives in.
+     * @default "./components/ui"
+     */
+    componentDir: './components/ui',
+  },
+
+  icon: {
+    serverBundle: {
+      collections: ['uil', 'mdi'], // <!--- this
+    },
+  },
 
   googleFonts: {
     families: {
       // List the fonts you want here
       Inter: true, // All weights of Inter
-      Lora: true, // All weights for Lora
+      Doto: true, // All weights for Lora
     },
 
     prefetch: true, // Preload fonts during the build
@@ -32,6 +52,10 @@ export default defineNuxtConfig({
           content: "James' eportfolio with the use of Nuxt and Tailwind ",
         },
       ],
+
+      htmlAttrs: {
+        lang: 'en',
+      },
 
       script: [
         {

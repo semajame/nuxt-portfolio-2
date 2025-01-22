@@ -1,8 +1,9 @@
 <template>
-  <div class="bg-black p-5">
+  <div class="bg-gradient-to-b from-gray-950 to-black p-5">
     <div class="max-w-lg mx-auto">
-      <Header />
-      <slot />
+      <div class="py-5">
+        <slot />
+      </div>
     </div>
   </div>
 </template>
