@@ -12,16 +12,16 @@
     >
       <div class="sm:my-5 my-2 text-sm text-white sm:p-5 p-2">
         <div class="text-xs border border-black p-2 bg-zinc-900 rounded-md">
-          <h4 class="text-sm font-bold">Email</h4>
+          <h1 class="text-sm font-bold">Email</h1>
           <p class="text-md">jamesanquillano@gmail.com</p>
         </div>
         <div
           class="text-xs border border-black p-2 bg-zinc-900 rounded-md mt-3"
         >
-          <h4 class="text-sm font-bold">Phone Number</h4>
+          <h1 class="text-sm font-bold">Phone Number</h1>
           <p class="text-md">09369533064</p>
         </div>
-        <h4 class="text-sm font-bold mt-3">Socials</h4>
+        <h1 class="text-sm font-bold mt-3">Socials</h1>
         <div class="text-xs flex items-center gap-2 mt-2">
           <NuxtLink
             to="https://www.linkedin.com/in/james-anquillano-47b001263/"

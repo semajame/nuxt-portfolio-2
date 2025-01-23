@@ -161,7 +161,7 @@ const events = [
       <div class="relative border border-zinc-900 rounded-md px-5 dark">
         <div class="about-vertical-line" />
         <div class="flex justify-between items-center">
-          <h3
+          <h1
             class="font-bold flex items-center gap-3 text-2xl text-white mt-5"
           >
             <svg
@@ -178,7 +178,7 @@ const events = [
               ></path>
             </svg>
             Certifications
-          </h3>
+          </h1>
         </div>
         <div class="flex gap-2 flex-col mt-3 pt-5 pb-1 text-white my-5">
           <NuxtLink
@@ -186,7 +186,7 @@ const events = [
             :key="index"
             :to="event.link"
             target="_blank"
-            class="flex items-center space-x-4 w-full group z-10 relative border border-black py-2"
+            class="flex items-center space-x-4 w-full group z-10 relative py-2"
           >
             <div class="flex-none">
               <div

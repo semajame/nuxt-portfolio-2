@@ -15,14 +15,16 @@
               class="left-0 h-[1px] animate-border-width rounded-full bg-gradient-to-r from-[rgba(17,17,17,0)] via-white to-[rgba(17,17,17,0)] transition-all duration-1000"
             />
           </div>
+
           <div
-            class="flex h-full items-center justify-center rounded-md border border-gray-800 bg-gradient-to-b from-gray-950 to-black"
+            class="dark transition-all duration-300 hover:bg-gradient-to-b hover:from-gray-950 hover:to-primary/[0.01] flex h-full items-center justify-center rounded-lg border border-gray-800 bg-black"
           >
             <NuxtImg
               :src="project.img"
               format="webp"
               densities="x1"
-              class="px-7 pt-7"
+              alt="Project Image"
+              class="mt-7 rounded-t-md w-[450px] h-full rounded-b-none"
             />
           </div>
         </div>
@@ -70,7 +72,7 @@ const projects = [
     img: '/assets/benedicto.png',
     title: 'Benedicto College Scheduling',
     description:
-      'Fullstac online class scheduling for Benedicto College using, Angular, Bootstrap, Mysql and Nestjs.',
+      'Fullstack online class scheduling for Benedicto College using, Angular, Bootstrap, Mysql and Nestjs.',
     link: 'https://bc-scheduling-1024.vercel.app/',
     githubLink: 'bc-scheduling-1024.vercel.app',
   },

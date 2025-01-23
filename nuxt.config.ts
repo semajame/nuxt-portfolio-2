@@ -3,6 +3,29 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
 
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
+    head: {
+      title: 'James - Frontend Developer',
+      meta: [
+        {
+          name: 'description',
+          content: "James' eportfolio with the use of Nuxt and Tailwind ",
+        },
+      ],
+
+      htmlAttrs: {
+        lang: 'en',
+      },
+
+      script: [
+        {
+          defer: true, // Defer loading
+        },
+      ],
+    },
+  },
+
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
@@ -40,28 +63,5 @@ export default defineNuxtConfig({
     prefetch: true, // Preload fonts during the build
     preconnect: true, // Preconnect to Google's font servers
     display: 'swap', // Ensure text remains visible during font loading
-  },
-
-  app: {
-    pageTransition: { name: 'page', mode: 'out-in' },
-    head: {
-      title: 'James - Frontend Developer',
-      meta: [
-        {
-          name: 'description',
-          content: "James' eportfolio with the use of Nuxt and Tailwind ",
-        },
-      ],
-
-      htmlAttrs: {
-        lang: 'en',
-      },
-
-      script: [
-        {
-          defer: true, // Defer loading
-        },
-      ],
-    },
   },
 })

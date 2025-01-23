@@ -15,7 +15,7 @@
             densities="x1"
             width="100"
             height="100"
-            class="rounded-full p-1 flipping-image absolute z-10"
+            class="rounded-full p-1 ping absolute z-10"
           />
         </div>
       </div>
