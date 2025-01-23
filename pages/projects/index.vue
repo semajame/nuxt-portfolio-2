@@ -108,7 +108,7 @@ const projects = [
   {
     img: '/assets/crypto.png',
     title: 'CryptoCurrency X',
-    description: 'Real time crypto updates using api, Vue and Tailwind',
+    description: 'Real time crypto updates using api, Vue and Tailwind.',
     link: 'https://crypto-currency-x.vercel.app/',
     githubLink: 'crypto-currency-x.vercel.app',
     tech: {

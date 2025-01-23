@@ -87,7 +87,9 @@ const events = [
     <TabsContent value="account">
       <div class="relative border border-zinc-900 rounded-md px-5 dark">
         <div class="vertical-line" />
-        <div class="flex justify-between items-center mt-5">
+        <div
+          class="flex sm:justify-between items-start mt-5 flex-col gap-2 sm:flex-row"
+        >
           <h3 class="font-bold flex items-center gap-3 text-2xl text-white">
             <svg
               data-testid="geist-icon"

@@ -8,9 +8,9 @@
       </span>
     </div>
     <div
-      class="rounded-lg dark p-2 mt-5 transition-all duration-300 border border-zinc-800"
+      class="rounded-lg dark sm:p-2 p-1 mt-5 transition-all duration-300 border border-zinc-800"
     >
-      <div class="my-5 text-sm text-white p-5">
+      <div class="sm:my-5 my-2 text-sm text-white sm:p-5 p-2">
         <div class="text-xs border border-black p-2 bg-zinc-900 rounded-md">
           <h4 class="text-sm font-bold">Email</h4>
           <p class="text-md">jamesanquillano@gmail.com</p>
