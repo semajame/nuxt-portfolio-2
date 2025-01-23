@@ -64,4 +64,10 @@ export default defineNuxtConfig({
     preconnect: true, // Preconnect to Google's font servers
     display: 'swap', // Ensure text remains visible during font loading
   },
+
+  runtimeConfig: {
+    public: {
+      MAP_API_KEY: process.env.MAP_API_KEY,
+    },
+  },
 })

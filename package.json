@@ -19,6 +19,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.473.0",
+    "maplibre-gl": "^5.0.1",
     "nuxt": "^3.14.1592",
     "radix-vue": "^1.9.12",
     "shadcn-nuxt": "^0.11.3",

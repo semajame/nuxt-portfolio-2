@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <header class="flex justify-start items-center gap-5">
+  <div class="relative">
+    <Map />
+    <header
+      class="flex justify-start items-center gap-5 relative bg-transparent"
+    >
       <div class="">
         <div
           class="relative h-[5rem] w-[5rem] overflow-hidden rounded-full border border-gray-800 backdrop-blur-3xl"
@@ -22,7 +25,7 @@
       <div>
         <h1 class="text-2xl font-medium tracking-tighter text-white group">
           Hey, I'm James
-          <span class="inline-block wave"> 👋 </span>
+          <span class="inline-block hover:wave"> 👋 </span>
         </h1>
 
         <div class="flex justify-between pt-1">
