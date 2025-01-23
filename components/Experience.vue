@@ -44,31 +44,31 @@ const events = [
   {
     title: 'Tour De Tech',
     location: 'Mandaue, Bai Hotel',
-    link: 'https://drive.google.com/file/d/1hoAnJ9YUP2pLwuGZaG8RGVMrluhM5lFJ/view?usp=drive_link',
+    image: '/assets/bai-hotel.jpg',
     year: 2024,
   },
   {
     title: 'Tour De Tech: Talent Caravan',
     location: 'Mandaue, Bai Hotel',
-    link: 'https://drive.google.com/file/d/1jgn8KMQ8VEBNWQ3by8ybqSso_DfLLUIN/view?usp=sharing',
+    image: '/assets/bai.jpg',
     year: 2024,
   },
   {
     title: 'Cebu ICT Student Congress',
     location: 'Cebu, CTU Main Campus Gym',
-    link: 'https://certificates.psite7.org/storage/templates/diJO48BX5rT7azLHEurXch3KjJGXxMaGGbxjCod4.jpg',
+    image: '/assets/psite.jpg',
     year: 2024,
   },
   {
     title: 'Cebu Interschool Hackathon',
     location: 'Cebu,  Provincial Capitol',
-    link: 'https://drive.google.com/file/d/1-Sk6AQkyXD6Ta0gtr2nYiHRCW5AaBk5k/view?usp=sharing',
+    image: '/assets/lexmark.jpg',
     year: 2024,
   },
   {
     title: 'Cebu Interschool Hackathon',
     location: 'Cebu, Northwinds Hotel',
-    link: 'https://drive.google.com/file/d/1UE_tRg2FYI-URoTEJm_IgFtvIm3jzT26/view?usp=sharing',
+    image: '/assets/jobtarget.jpg',
     year: 2023,
   },
 ]
@@ -180,12 +180,10 @@ const events = [
             Certifications
           </h1>
         </div>
-        <div class="flex gap-2 flex-col mt-3 pt-5 pb-1 text-white my-5">
-          <NuxtLink
+        <div class="flex gap-5 flex-col mt-3 pt-5 pb-1 text-white my-5">
+          <div
             v-for="(event, index) in events"
             :key="index"
-            :to="event.link"
-            target="_blank"
             class="flex items-center space-x-4 w-full group z-10 relative py-2"
           >
             <div class="flex-none">
@@ -193,18 +191,16 @@ const events = [
                 class="w-2.5 h-2.5 bg-black group-hover:bg-white transition duration-300 border border-white rounded-full"
               ></div>
             </div>
-            <div class="w-full">
-              <p class="text-sm font-semibold">{{ event.title }}</p>
-              <div class="flex justify-between items-center">
+            <div class="w-full flex justify-between items-center">
+              <div>
+                <p class="text-sm font-semibold">{{ event.title }}</p>
                 <p class="text-xs text-gray-400">{{ event.location }}</p>
-                <div
-                  class="border border-gray-500 px-2 py-0.5 text-xs rounded-full flex justify-center items-center gap-1 text-white year"
-                >
-                  {{ event.year }}
-                </div>
+              </div>
+              <div class="flex justify-between items-center">
+                <Drawer :eventData="event" loading="lazy" />
               </div>
             </div>
-          </NuxtLink>
+          </div>
         </div>
       </div>
     </TabsContent>

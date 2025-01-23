@@ -17,7 +17,7 @@
           </div>
 
           <div
-            class="dark transition-all duration-300 hover:bg-gradient-to-b hover:from-gray-950 hover:to-primary/[0.01] flex h-full items-center justify-center rounded-lg border border-gray-800 bg-black"
+            class="dark transition duration-300 ease-in-out hover:bg-gradient-to-b hover:from-gray-950 hover:to-primary/[0.01] flex h-full items-center justify-center rounded-lg border border-gray-800 bg-black"
           >
             <NuxtImg
               :src="project.img"
@@ -72,7 +72,7 @@ const projects = [
     img: '/assets/benedicto.png',
     title: 'Benedicto College Scheduling',
     description:
-      'Fullstack online class scheduling for Benedicto College using, Angular, Bootstrap, Mysql and Nestjs.',
+      'Fullstack online class scheduling for Benedicto College using Angular, Bootstrap, Mysql and Nestjs.',
     link: 'https://bc-scheduling-1024.vercel.app/',
     githubLink: 'bc-scheduling-1024.vercel.app',
   },
