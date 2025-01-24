@@ -24,7 +24,7 @@
               format="webp"
               densities="x1"
               alt="Project Image"
-              class="mt-7 rounded-t-md w-[450px] h-full rounded-b-none"
+              class="mt-7 rounded-t-md sm:w-[450px] w-[300px] h-full rounded-b-none"
             />
           </div>
         </div>

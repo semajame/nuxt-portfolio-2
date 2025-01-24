@@ -71,6 +71,7 @@
                 format="webp"
                 densities="x1"
                 class="h-full w-full object-cover"
+                alt="Project Image"
               />
             </div>
             <h2 class="text-white text-lg font-semibold mb-2">
