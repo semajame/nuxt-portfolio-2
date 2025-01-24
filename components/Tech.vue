@@ -9,7 +9,7 @@
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
-        class="size-6 transition-all duration-300 text-[#E34F26]"
+        class="size-5 transition-all duration-300 text-[#E34F26]"
       >
         <title>HTML5</title>
         <path

@@ -1,17 +1,11 @@
 <template>
   <div class="absolute top-2 right-2 z-10">
     <div
-      class="relative inline-flex h-12 overflow-hidden rounded-md p-[1px] focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50 z-10 bg-zinc-900 text-white font-semibold text-sm border border-zinc-800 top-2 right-2"
+      class="clock bg-zinc-950 text-white tracking-wider text-xs font-semibold py-1 px-3 border-zinc-900 rounded-md"
     >
-      <span
-        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
-      ></span>
-      <p
-        class="inline-flex h-full w-full items-center justify-center rounded-md bg-gray-950 px-4 py-[2px] text-xs font-medium text-gray-50 backdrop-blur-3xl tracking-lighter"
-      >
-        {{ time }}
-      </p>
+      <span>{{ time }} PHST</span>
     </div>
+    >
   </div>
 </template>
 
